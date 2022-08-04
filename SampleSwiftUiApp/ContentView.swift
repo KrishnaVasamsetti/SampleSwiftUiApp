@@ -17,7 +17,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-        Text("Hello, Krishna!\(selectedDate)")
+        Text("Krishna!\(selectedDate)")
             .padding()
             .foregroundColor(selectedColor)
             .background(Color.yellow)
